@@ -1,0 +1,11 @@
+'''Faça um Programa que peça um número e informe se o número é inteiro ou decimal.'''
+
+numero = float(input("Informe algum número: "))
+
+if(numero%1==0):
+    print("{:.0f} é inteiro".format(numero))
+elif(numero%1!=0):
+    print("{} é decimal".format(numero))
+
+'''{:.0f} ele não vai mostrar nenhuma casa decimal do número, mesmo que o usuário coloque 9 e saia 9.0, com {:.0f} aparece somente 9'''
+'''Por não ter uma terceira variável, posso usar else nesse caso e não declarar nada depois da função'''
