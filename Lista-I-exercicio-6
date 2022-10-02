@@ -1,0 +1,13 @@
+'''Faça um programa que peça o tamanho de um arquivo para download (em MB) e a velocidade de um link de Internet (em Mbps), 
+calcule e informe o tempo aproximado de download do arquivo usando este link (em minutos).'''
+
+tamanho = float(input("Informe o tamanho do arquivo para download (em MB): \n"))
+velocidade = float(input("Informe a velocidade do link de Internet (em Mbps): \n"))
+
+tempo = float(tamanho/velocidade)
+minutos = float(tamanho/velocidade)/60
+
+print("o tempo aproximado de download do arquivo em segundos é de {:.2} e o tempo em minutos é de {:.2}.".format(tempo, minutos))
+
+'''{:.2} significa que vai mostrar os dois primeiros números do resultado diferentes de 0,
+se for {:.2f} ele vai mostrar até as duas primeiras casas decimais'''
