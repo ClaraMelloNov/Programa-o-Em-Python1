@@ -1,0 +1,8 @@
+'''Faça um Programa que peça um número inteiro e determine se ele é par ou ímpar'''
+
+par_impar = int(input("Digite um número inteiro: "))
+
+if (par_impar %2==0):
+    print("o número {} é par".format(int(par_impar)))
+else:
+    print("o número {} é ímpar".format(int(par_impar)))
