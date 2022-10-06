@@ -9,5 +9,3 @@ minutos = float(tamanho/velocidade)/60
 
 print("o tempo aproximado de download do arquivo em segundos é de {:.2} e o tempo em minutos é de {:.2}.".format(tempo, minutos))
 
-'''{:.2} significa que vai mostrar os dois primeiros números do resultado diferentes de 0,
-se for {:.2f} ele vai mostrar até as duas primeiras casas decimais'''
